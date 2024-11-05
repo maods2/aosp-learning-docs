@@ -1,0 +1,28 @@
+{
+    "name": "Dockerfile",
+    "build": {
+        "dockerfile": "./Dockerfile",
+        "context": "../",
+        "args": {
+            "git_user": "Matheus",
+            "git_email": "matheusalgusto_@hotmail.com"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.python-debug",
+                "Continue.continue",
+                "ryanluker.vscode-coverage-gutters",
+                "ms-toolsai.jupyter",
+                "ms-vscode.cpptools-extension-pack",
+                "ms-vscode.cmake-tools"
+            ]
+        }
+    },
+    
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    }
+}
